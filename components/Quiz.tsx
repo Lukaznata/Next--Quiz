@@ -22,7 +22,7 @@ export default function Quiz(props: quizProps) {
     <>
       <div className={styles.quiz}>
         {!props.question ? (
-          <h1>Carregando...</h1>
+          <div></div>
         ) : (
           <Question
             value={props.question}

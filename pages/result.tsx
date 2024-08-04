@@ -25,7 +25,8 @@ export default function Result() {
         />
       </div>
 
-      <Button href="/" text="Tentar Novamente" />
+      <Button href="/" text="Início" />
+      <Button href="/start" text="Tentar Novamente" />
     </div>
   ) : (
     <h1>Carregando resultados...</h1>
