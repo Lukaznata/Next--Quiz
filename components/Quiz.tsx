@@ -14,11 +14,12 @@ interface quizProps {
 export default function Quiz(props: quizProps) {
   const onResponse = (index: number) => {
     if (props.question.notAnsweredQuestion) {
+      props.question.answeredQuestion;
       props.answeredQuestion(props.question.answerWith(index));
     }
 
     setTimeout(() => {
-      props.goToNextStep();
+      props.question.answeredQuestion && props.goToNextStep();
     }, 2000);
   };
 
