@@ -15,12 +15,16 @@ export default function Start() {
   const [question, setQuestion] = useState<QuestionModel>();
   const [rightAnswers, setRightAnswers] = useState(0);
 
+  function getFirstTenIds(questionIds: number[]): number[] {
+    return questionIds.slice(0, 10);
+  }
+
   async function loadIdQuestions() {
     try {
       const resp = await fetch(`${BASE_URL}/quiz`);
       const questionsIds = await resp.json();
 
-      setQuestionIds(questionsIds);
+      setQuestionIds(getFirstTenIds(questionsIds));
     } catch (error) {
       console.log(`Ocorreu um erro: ${error}`);
     }

@@ -16,6 +16,10 @@ export default function Quiz(props: quizProps) {
     if (props.question.notAnsweredQuestion) {
       props.answeredQuestion(props.question.answerWith(index));
     }
+
+    setTimeout(() => {
+      props.goToNextStep();
+    }, 2000);
   };
 
   return (

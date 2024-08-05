@@ -122,6 +122,127 @@ const DataQuestions: QuestionModel[] = [
     AnswerModel.toSetAsWrongAnswer("Marquês de Pombal"),
     AnswerModel.toSetAsCorrectAnswer("Duque de Caxias"),
   ]),
+
+  new QuestionModel(217, "Quem pintou a Mona Lisa?", [
+    AnswerModel.toSetAsWrongAnswer("Vincent van Gogh"),
+    AnswerModel.toSetAsWrongAnswer("Pablo Picasso"),
+    AnswerModel.toSetAsWrongAnswer("Salvador Dalí"),
+    AnswerModel.toSetAsCorrectAnswer("Leonardo da Vinci"),
+  ]),
+  new QuestionModel(218, "Qual é o menor país do mundo?", [
+    AnswerModel.toSetAsWrongAnswer("Mônaco"),
+    AnswerModel.toSetAsWrongAnswer("Malta"),
+    AnswerModel.toSetAsWrongAnswer("San Marino"),
+    AnswerModel.toSetAsCorrectAnswer("Vaticano"),
+  ]),
+  new QuestionModel(219, "Qual o maior planeta do sistema solar?", [
+    AnswerModel.toSetAsWrongAnswer("Terra"),
+    AnswerModel.toSetAsWrongAnswer("Marte"),
+    AnswerModel.toSetAsWrongAnswer("Saturno"),
+    AnswerModel.toSetAsCorrectAnswer("Júpiter"),
+  ]),
+  new QuestionModel(220, "Qual é a capital da Austrália?", [
+    AnswerModel.toSetAsWrongAnswer("Sydney"),
+    AnswerModel.toSetAsWrongAnswer("Melbourne"),
+    AnswerModel.toSetAsWrongAnswer("Brisbane"),
+    AnswerModel.toSetAsCorrectAnswer("Canberra"),
+  ]),
+  new QuestionModel(221, "Quem descobriu o Brasil?", [
+    AnswerModel.toSetAsWrongAnswer("Cristóvão Colombo"),
+    AnswerModel.toSetAsWrongAnswer("Américo Vespúcio"),
+    AnswerModel.toSetAsWrongAnswer("Vasco da Gama"),
+    AnswerModel.toSetAsCorrectAnswer("Pedro Álvares Cabral"),
+  ]),
+  new QuestionModel(222, "Qual é o elemento químico de símbolo O?", [
+    AnswerModel.toSetAsWrongAnswer("Ouro"),
+    AnswerModel.toSetAsWrongAnswer("Oxálio"),
+    AnswerModel.toSetAsWrongAnswer("Ósmio"),
+    AnswerModel.toSetAsCorrectAnswer("Oxigênio"),
+  ]),
+  new QuestionModel(223, "Qual é a língua oficial do Canadá?", [
+    AnswerModel.toSetAsWrongAnswer("Espanhol"),
+    AnswerModel.toSetAsWrongAnswer("Alemão"),
+    AnswerModel.toSetAsWrongAnswer("Italiano"),
+    AnswerModel.toSetAsCorrectAnswer("Inglês e Francês"),
+  ]),
+  new QuestionModel(224, "Qual é a montanha mais alta do mundo?", [
+    AnswerModel.toSetAsWrongAnswer("K2"),
+    AnswerModel.toSetAsWrongAnswer("Kangchenjunga"),
+    AnswerModel.toSetAsWrongAnswer("Lhotse"),
+    AnswerModel.toSetAsCorrectAnswer("Monte Everest"),
+  ]),
+  new QuestionModel(225, "Quem escreveu 'Dom Quixote'?", [
+    AnswerModel.toSetAsWrongAnswer("William Shakespeare"),
+    AnswerModel.toSetAsWrongAnswer("Fiódor Dostoiévski"),
+    AnswerModel.toSetAsWrongAnswer("Gabriel García Márquez"),
+    AnswerModel.toSetAsCorrectAnswer("Miguel de Cervantes"),
+  ]),
+  new QuestionModel(226, "Qual é a moeda do Japão?", [
+    AnswerModel.toSetAsWrongAnswer("Won"),
+    AnswerModel.toSetAsWrongAnswer("Yuan"),
+    AnswerModel.toSetAsWrongAnswer("Baht"),
+    AnswerModel.toSetAsCorrectAnswer("Iene"),
+  ]),
+  new QuestionModel(227, "Quem pintou o teto da Capela Sistina?", [
+    AnswerModel.toSetAsWrongAnswer("Donatello"),
+    AnswerModel.toSetAsWrongAnswer("Raphael"),
+    AnswerModel.toSetAsWrongAnswer("Titian"),
+    AnswerModel.toSetAsCorrectAnswer("Michelangelo"),
+  ]),
+  new QuestionModel(228, "Qual é o país mais populoso do mundo?", [
+    AnswerModel.toSetAsWrongAnswer("Índia"),
+    AnswerModel.toSetAsWrongAnswer("Estados Unidos"),
+    AnswerModel.toSetAsWrongAnswer("Indonésia"),
+    AnswerModel.toSetAsCorrectAnswer("China"),
+  ]),
+  new QuestionModel(229, "Quem foi o primeiro homem a pisar na Lua?", [
+    AnswerModel.toSetAsWrongAnswer("Buzz Aldrin"),
+    AnswerModel.toSetAsWrongAnswer("Yuri Gagarin"),
+    AnswerModel.toSetAsWrongAnswer("Alan Shepard"),
+    AnswerModel.toSetAsCorrectAnswer("Neil Armstrong"),
+  ]),
+  new QuestionModel(230, "Qual é o maior oceano do mundo?", [
+    AnswerModel.toSetAsWrongAnswer("Oceano Atlântico"),
+    AnswerModel.toSetAsWrongAnswer("Oceano Índico"),
+    AnswerModel.toSetAsWrongAnswer("Oceano Ártico"),
+    AnswerModel.toSetAsCorrectAnswer("Oceano Pacífico"),
+  ]),
+  new QuestionModel(231, "Qual é o maior mamífero do mundo?", [
+    AnswerModel.toSetAsWrongAnswer("Elefante"),
+    AnswerModel.toSetAsWrongAnswer("Hipopótamo"),
+    AnswerModel.toSetAsWrongAnswer("Girafa"),
+    AnswerModel.toSetAsCorrectAnswer("Baleia Azul"),
+  ]),
+  new QuestionModel(232, "Qual é a capital da Espanha?", [
+    AnswerModel.toSetAsWrongAnswer("Barcelona"),
+    AnswerModel.toSetAsWrongAnswer("Sevilha"),
+    AnswerModel.toSetAsWrongAnswer("Valência"),
+    AnswerModel.toSetAsCorrectAnswer("Madri"),
+  ]),
+  new QuestionModel(233, "Qual é o maior deserto do mundo?", [
+    AnswerModel.toSetAsWrongAnswer("Deserto do Saara"),
+    AnswerModel.toSetAsWrongAnswer("Deserto da Arábia"),
+    AnswerModel.toSetAsWrongAnswer("Deserto de Gobi"),
+    AnswerModel.toSetAsCorrectAnswer("Deserto da Antártida"),
+  ]),
+  new QuestionModel(234, "Qual é o rio mais longo do mundo?", [
+    AnswerModel.toSetAsWrongAnswer("Rio Nilo"),
+    AnswerModel.toSetAsWrongAnswer("Rio Yangtzé"),
+    AnswerModel.toSetAsWrongAnswer("Rio Mississippi"),
+    AnswerModel.toSetAsCorrectAnswer("Rio Amazonas"),
+  ]),
+  new QuestionModel(235, "Quem escreveu 'O Pequeno Príncipe'?", [
+    AnswerModel.toSetAsWrongAnswer("J.K. Rowling"),
+    AnswerModel.toSetAsWrongAnswer("George Orwell"),
+    AnswerModel.toSetAsWrongAnswer("Mark Twain"),
+    AnswerModel.toSetAsCorrectAnswer("Antoine de Saint-Exupéry"),
+  ]),
+  new QuestionModel(236, "Qual é a capital do Canadá?", [
+    AnswerModel.toSetAsWrongAnswer("Toronto"),
+    AnswerModel.toSetAsWrongAnswer("Vancouver"),
+    AnswerModel.toSetAsWrongAnswer("Montreal"),
+    AnswerModel.toSetAsCorrectAnswer("Ottawa"),
+  ]),
 ];
 
 export default DataQuestions;
