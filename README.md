@@ -26,7 +26,7 @@ Esta aplicação foi implantada na Vercel e pode ser acessada publicamente em:(h
 
 ### Versão para PC
 
-![Captura de Tela da Versão para Mobile](link-para-captura-de-tela-mobile)
+![projetoQuizNext](https://github.com/user-attachments/assets/c53b6024-6e72-4ad7-9e01-ab3ce37812c5)
 
 ## Instalação e Configuração
 
