@@ -20,11 +20,11 @@ Esta aplicação foi implantada na Vercel e pode ser acessada publicamente em:(h
 
 ## Capturas de Tela
 
-### Versão para PC
+### Versão para Mobile
 
 ![projetoQuizNext2](https://github.com/user-attachments/assets/8cd621ac-2d4f-4348-a10b-3391f378a6a3)
 
-### Versão para Mobile
+### Versão para PC
 
 ![Captura de Tela da Versão para Mobile](link-para-captura-de-tela-mobile)
 
