@@ -22,7 +22,10 @@ Esta aplicação foi implantada na Vercel e pode ser acessada publicamente em:(h
 
 ### Versão para PC
 
-![Captura de Tela da Versão para PC](https://github.com/Lukaznata/Next--Quiz/issues/2#issue-2449493632)
+![Captura de Tela da Versão para PC]
+<div align='center'>
+  <img src='https://github.com/Lukaznata/Next--Quiz/issues/2#issue-2449493632' width='700px'>
+</div>
 
 ### Versão para Mobile
 
