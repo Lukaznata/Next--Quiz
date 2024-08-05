@@ -14,14 +14,15 @@ interface quizProps {
 export default function Quiz(props: quizProps) {
   const onResponse = (index: number) => {
     if (props.question.notAnsweredQuestion) {
-      props.question.answeredQuestion;
       props.answeredQuestion(props.question.answerWith(index));
     }
-
-    setTimeout(() => {
-      props.question.answeredQuestion && props.goToNextStep();
-    }, 2000);
   };
+
+  if (props.question.answeredQuestion) {
+    setTimeout(() => {
+      props.goToNextStep();
+    }, 2000);
+  }
 
   return (
     <>
@@ -31,7 +32,7 @@ export default function Quiz(props: quizProps) {
         ) : (
           <Question
             value={props.question}
-            timeToAnswer={30}
+            timeToAnswer={20}
             onResponse={onResponse}
             timeIsOver={props.goToNextStep}
           />

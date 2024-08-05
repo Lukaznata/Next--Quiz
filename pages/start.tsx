@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 
 import { useRouter } from "next/router";
 
-const BASE_URL = "https://quiznext-two.vercel.app/api";
+// const BASE_URL = "https://quiznext-two.vercel.app/api";
+const BASE_URL = "http://localhost:3000/api";
 
 export default function Start() {
   const router = useRouter();

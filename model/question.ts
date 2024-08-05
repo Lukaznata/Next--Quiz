@@ -74,7 +74,8 @@ class QuestionModel implements IQuestion {
 
     const checkedAnswers = this.#_answersQuestion.map((answer, i) => {
       const selectedAnswer = index === i;
-      const mustReveal = selectedAnswer || answer.isCorrectAnswer;
+      const mustReveal =
+        (selectedAnswer && !answer.revealedAnswer) || answer.isCorrectAnswer;
       return mustReveal ? answer.toReveal() : answer;
     });
 
