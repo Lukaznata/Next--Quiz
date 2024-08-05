@@ -1,40 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aplicação de Quiz em Next.js
 
-## Getting Started
+Este projeto é uma aplicação de quiz desenvolvida com Next.js e TypeScript. O quiz apresenta perguntas obtidas de uma API do Next.js, oferecendo quatro opções de resposta para cada pergunta. Se nenhuma resposta for selecionada, o quiz avança automaticamente para a próxima pergunta após um temporizador de 20 segundos. Os usuários podem pular perguntas ou respondê-las. Quando uma resposta é selecionada, o cartão gira com um efeito 3D para mostrar se a resposta está correta ou incorreta. A cor de fundo muda para vermelho em caso de respostas incorretas e verde para respostas corretas. O quiz avança para a próxima pergunta 2 segundos após uma resposta ser selecionada. Na décima e última pergunta, aparece um botão "Finalizar", e selecionar uma resposta leva o usuário à tela de resultados após 2 segundos.
 
-First, run the development server:
+A tela de resultados exibe o número total de perguntas, o número de respostas corretas e a porcentagem de acertos. Existem dois botões: um para retornar ao menu e outro para tentar o quiz novamente.
+
+## Funcionalidades
+
+- **Temporizador de Perguntas**: Cada pergunta tem um temporizador de 20 segundos. Se nenhuma resposta for selecionada, o quiz avança automaticamente para a próxima pergunta.
+- **Opções de Resposta**: Cada pergunta possui quatro opções de resposta.
+- **Efeito de Giro 3D**: Quando uma resposta é selecionada, o cartão gira para revelar a resposta correta com um efeito 3D.
+- **Mudança de Cor de Fundo**: A cor de fundo muda para vermelho em caso de respostas incorretas e verde para respostas corretas.
+- **Navegação Automática**: O quiz avança automaticamente para a próxima pergunta 2 segundos após uma resposta ser selecionada.
+- **Tela de Resultados**: Exibe o número total de perguntas, o número de respostas corretas e a porcentagem de acertos. Inclui botões para retornar ao menu ou tentar o quiz novamente.
+- **Design Responsivo**: A aplicação foi projetada para funcionar tanto em dispositivos PC quanto em dispositivos móveis.
+
+## Implantação
+
+Esta aplicação foi implantada na Vercel e pode ser acessada publicamente em:(https://quiznext-two.vercel.app/)
+
+## Capturas de Tela
+
+### Versão para PC
+
+![Captura de Tela da Versão para PC](https://drive.google.com/file/d/1guthd8LMO2KgH-lyhswb_JwEvn9OQvx5/view?usp=drive_link)
+
+### Versão para Mobile
+
+![Captura de Tela da Versão para Mobile](link-para-captura-de-tela-mobile)
+
+## Instalação e Configuração
+
+Para começar a usar o projeto localmente, siga estas etapas:
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/lukaznata/Next--Quiz.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd Quiz
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **Next.js**: Um framework React para renderização do lado do servidor e geração de sites estáticos.
+- **TypeScript**: Um superconjunto de JavaScript que adiciona tipagem estática ao idioma.
+- **Vercel**: Plataforma para implantação de aplicações front-end.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
