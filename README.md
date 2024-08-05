@@ -4,6 +4,11 @@ Este projeto é uma aplicação de quiz desenvolvida com Next.js e TypeScript. O
 
 A tela de resultados exibe o número total de perguntas, o número de respostas corretas e a porcentagem de acertos. Existem dois botões: um para retornar ao menu e outro para tentar o quiz novamente.
 
+
+## Link Para Acessar
+
+https://porta-premiada-psi.vercel.app/
+
 ## Funcionalidades
 
 - **Temporizador de Perguntas**: Cada pergunta tem um temporizador de 20 segundos. Se nenhuma resposta for selecionada, o quiz avança automaticamente para a próxima pergunta.
@@ -13,10 +18,6 @@ A tela de resultados exibe o número total de perguntas, o número de respostas 
 - **Navegação Automática**: O quiz avança automaticamente para a próxima pergunta 2 segundos após uma resposta ser selecionada.
 - **Tela de Resultados**: Exibe o número total de perguntas, o número de respostas corretas e a porcentagem de acertos. Inclui botões para retornar ao menu ou tentar o quiz novamente.
 - **Design Responsivo**: A aplicação foi projetada para funcionar tanto em dispositivos PC quanto em dispositivos móveis.
-
-## Implantação
-
-Esta aplicação foi implantada na Vercel e pode ser acessada publicamente em:(https://quiznext-two.vercel.app/)
 
 ## Capturas de Tela
 
