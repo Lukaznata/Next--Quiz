@@ -38,11 +38,15 @@ export default function Quiz(props: quizProps) {
           />
         )}
 
-        {props.question.notAnsweredQuestion && (
-          <Button
-            text={props.lastQuestion ? "Finalizar" : "Próxima"}
-            onClick={props.goToNextStep}
-          />
+        {props.question.notAnsweredQuestion ? (
+          <div>
+            <Button
+              text={props.lastQuestion ? "Finalizar" : "Próxima"}
+              onClick={props.goToNextStep}
+            />
+          </div>
+        ) : (
+          <div></div>
         )}
       </div>
     </>
