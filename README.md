@@ -24,7 +24,7 @@ Esta aplicação foi implantada na Vercel e pode ser acessada publicamente em:(h
 
 ![Captura de Tela da Versão para PC]
 <div align="center">
-  <img src="![projetoQuizNext2](https://github.com/user-attachments/assets/8cd621ac-2d4f-4348-a10b-3391f378a6a3)">
+  <img src="![projetoQuizNext2](https://github.com/user-attachments/assets/8cd621ac-2d4f-4348-a10b-3391f378a6a3)" width="700px">
 </div>
 
 ### Versão para Mobile
