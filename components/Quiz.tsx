@@ -46,7 +46,7 @@ export default function Quiz(props: quizProps) {
             />
           </div>
         ) : (
-          <div></div>
+          <div className={styles.emptyButtonSpace}></div>
         )}
       </div>
     </>

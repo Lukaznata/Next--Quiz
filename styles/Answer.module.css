@@ -1,7 +1,7 @@
 .answer {
   display: flex;
   min-width: 500px;
-  width: 80%;
+  width: 50%;
   height: 100px;
   margin: 10px;
   align-self: center;
@@ -81,4 +81,10 @@
 .value {
   font-size: 1.3rem;
   font-weight: 700;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .answer {
+    min-width: 300px;
+  }
 }
